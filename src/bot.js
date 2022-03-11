@@ -1,8 +1,6 @@
-//https://www.youtube.com/watch?v=BmKXBVdEV0g&t=2884s&ab_channel=TraversyMedia
 
 require('dotenv').config()
-//testing token
-console.log(process.env.TOKEN)
+
 
 const { Client, Guild } = require('discord.js');
 const client = new Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
@@ -12,7 +10,6 @@ const PREFIX = '$';
 
 
 client.on('ready', () => {
-    console.log(`${client.user.tag} has logged in`);
     welcome(client);
 })
 
@@ -44,7 +41,6 @@ client.on('message', async (message)=> {
             return joke
         }
         let jokeValue = await getJoke()
-        console.log(jokeValue)
         message.reply(`${jokeValue.quote}`)
     }
 
@@ -65,7 +61,6 @@ client.on('message', async (message)=> {
             } else {
                 message.channel.send('who dat fambo?')
             }
-            //message.channel.send(`Bye Felicia`)
         } else if (CMD_NAME === 'ban'){
             message.channel.send('Uh?!')
         }
@@ -74,7 +69,6 @@ client.on('message', async (message)=> {
 })
 client.on('message', (message) => {
     let wordArray = message.content.split();
-    console.log(wordArray)
 
     let filterWords = ['fuck you'] ;
 
