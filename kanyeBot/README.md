@@ -17,6 +17,8 @@ https://user-images.githubusercontent.com/94934469/157988090-1379de65-10ad-4f3b-
 *   whats up ye
 *   filterWords
 *   $kick ${member}
+*   sheesh
+*   for real
 
 
 
