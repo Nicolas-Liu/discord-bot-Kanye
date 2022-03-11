@@ -5,6 +5,7 @@
 # About
 
 KanyeBot is a discord bot with the basic features needed for a discord channel! Please see the video below to see some of its commands :)
+<b>Warning: May contain strong language</b>
 
 
 https://user-images.githubusercontent.com/94934469/157988090-1379de65-10ad-4f3b-8d0e-dabc79b578e4.mov
