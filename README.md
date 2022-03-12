@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/94934469/157988090-1379de65-10ad-4f3b-
 ## Features
 
 
-*   Kanye West joke API
+*   wisdom (generates quote from Kanye West quote API)
 *   hi ye/hello ye
 *   whats up ye
 *   filterWords
